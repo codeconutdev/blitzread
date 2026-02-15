@@ -34,7 +34,7 @@ screens = [
         'accent': '#FF3B30',
     },
     {
-        'file': '03_reading.png',
+        'file': '05_paused.png',
         'headline': 'Your Speed, Your Way',
         'subline': 'Adjust from 100 to 1,000 words per minute.',
         'bg_top': '#0A1A1A',
