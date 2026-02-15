@@ -1,4 +1,4 @@
-package dev.codeconut.speed_reader
+package com.borgo.blitzread
 
 import io.flutter.embedding.android.FlutterActivity
 
