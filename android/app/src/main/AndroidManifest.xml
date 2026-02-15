@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="speed_reader"
+        android:label="BlitzRead"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

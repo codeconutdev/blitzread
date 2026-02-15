@@ -336,18 +336,7 @@ class ReaderScreen extends HookWidget {
                           'Tap to start reading',
                           style: TextStyle(color: Colors.white24, fontSize: 20),
                         )
-                      : AnimatedSwitcher(
-                          duration: const Duration(milliseconds: 200),
-                          child: model.isPlaying
-                              ? KeyedSubtree(
-                                  key: const ValueKey('orp'),
-                                  child: _buildOrpWord(word, orp),
-                                )
-                              : KeyedSubtree(
-                                  key: const ValueKey('context'),
-                                  child: _buildContextView(model),
-                                ),
-                        ),
+                      : _buildOrpWord(word, orp),
                 ),
               ),
             ),
@@ -423,105 +412,6 @@ class ReaderScreen extends HookWidget {
               ),
             ),
           ],
-        ),
-      ),
-    );
-  }
-
-  /// Build the paused context view — paragraph with current word highlighted
-  Widget _buildContextView(ReaderModel model) {
-    final words = model.words;
-    final idx = model.currentIndex;
-    // Show ~80 words around current word
-    final start = (idx - 40).clamp(0, words.length);
-    final end = (idx + 41).clamp(0, words.length);
-
-    // Build spans with fading opacity based on distance from current word
-    List<InlineSpan> spans = [];
-    for (int i = start; i < end; i++) {
-      final distance = (i - idx).abs();
-      final opacity = (1.0 - distance * 0.03).clamp(0.1, 1.0);
-
-      if (i == idx) {
-        // Current word with ORP highlight
-        final w = words[i];
-        final orp = orpIndex(w);
-        final before = w.substring(0, orp);
-        final letter = w[orp];
-        final after = w.substring(orp + 1);
-        if (before.isNotEmpty) {
-          spans.add(TextSpan(
-            text: before,
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: opacity),
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              height: 1.6,
-            ),
-          ));
-        }
-        spans.add(TextSpan(
-          text: letter,
-          style: TextStyle(
-            color: Colors.red.withValues(alpha: opacity),
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
-            height: 1.6,
-          ),
-        ));
-        if (after.isNotEmpty) {
-          spans.add(TextSpan(
-            text: after,
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: opacity),
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              height: 1.6,
-            ),
-          ));
-        }
-      } else {
-        spans.add(TextSpan(
-          text: words[i],
-          style: TextStyle(
-            color: Colors.white.withValues(alpha: opacity * 0.6),
-            fontSize: 20,
-            fontWeight: FontWeight.w300,
-            height: 1.6,
-          ),
-        ));
-      }
-      if (i < end - 1) {
-        final spaceOpacity = ((1.0 - distance * 0.08) * 0.6).clamp(0.1, 0.6);
-        spans.add(TextSpan(
-          text: ' ',
-          style: TextStyle(
-            color: Colors.white.withValues(alpha: spaceOpacity),
-            fontSize: 20,
-            height: 1.6,
-          ),
-        ));
-      }
-    }
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 32),
-      child: ShaderMask(
-        shaderCallback: (bounds) => LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            Colors.transparent,
-            Colors.white,
-            Colors.white,
-            Colors.transparent,
-          ],
-          stops: const [0.0, 0.15, 0.85, 1.0],
-        ).createShader(bounds),
-        blendMode: BlendMode.dstIn,
-        child: RichText(
-          textAlign: TextAlign.center,
-          text: TextSpan(children: spans),
         ),
       ),
     );
