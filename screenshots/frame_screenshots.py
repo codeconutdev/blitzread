@@ -18,7 +18,7 @@ CANVAS_W, CANVAS_H = 1290, 2796
 # Marketing text for each screenshot
 screens = [
     {
-        'file': '06_playing_word2.png',
+        'file': '04_playing.png',
         'headline': 'Read 3x Faster',
         'subline': 'One word at a time. Laser focus.',
         'bg_top': '#1A0A0A',
@@ -35,8 +35,8 @@ screens = [
     },
     {
         'file': '03_reading.png',
-        'headline': 'Smart Word Timing',
-        'subline': 'Longer words linger. Short ones fly.',
+        'headline': 'Your Speed, Your Way',
+        'subline': 'Adjust from 100 to 1,000 words per minute.',
         'bg_top': '#0A1A1A',
         'bg_bottom': '#0A0A1A',
         'accent': '#FF3B30',

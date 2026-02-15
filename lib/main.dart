@@ -314,6 +314,7 @@ class ReaderScreen extends HookWidget {
                   IconButton(
                     icon: const Icon(Icons.arrow_back, color: Colors.white38),
                     onPressed: () {
+                      model.stopPlaying();
                       model.reset();
                       model.setText('');
                     },
