@@ -190,7 +190,7 @@ class TextInputScreen extends HookWidget {
             children: [
               const SizedBox(height: 40),
               const Text(
-                'BLITZREAD',
+                'ZAPREAD',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 28,
@@ -201,7 +201,7 @@ class TextInputScreen extends HookWidget {
               ),
               const SizedBox(height: 8),
               const Text(
-                'Speed read with ORP highlighting',
+                'Speed read with focus highlighting',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 14,
