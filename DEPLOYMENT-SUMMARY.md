@@ -1,4 +1,4 @@
-# BlitzRead - App Store Deployment Summary
+# ZapRead - App Store Deployment Summary
 
 **Date:** February 15, 2025  
 **Status:** ✅ Ready for App Store submission  
@@ -95,7 +95,7 @@
 
 ### Metadata Entry (App Store Connect)
 Use content from `store-listing.md`:
-- [ ] App name: **BlitzRead**
+- [ ] App name: **ZapRead**
 - [ ] Subtitle: **Speed Read Anything**
 - [ ] Description (copy from store-listing.md)
 - [ ] Keywords: `speed reading,RSVP,fast reader,read faster,speed read,book reader,study app,reading trainer`
@@ -120,7 +120,7 @@ Use content from `store-listing.md`:
 
 ## 📊 App Details
 
-**App Name:** BlitzRead  
+**App Name:** ZapRead  
 **Subtitle:** Speed Read Anything  
 **Company:** Borgo Technologies LLC  
 **Bundle ID:** com.borgo.blitzread  
@@ -153,7 +153,7 @@ Use content from `store-listing.md`:
 
 ### Bundle ID Pattern
 Following Borgo Technologies LLC naming: `com.borgo.{app-name}`
-- BlitzRead: `com.borgo.blitzread` ✅
+- ZapRead: `com.borgo.blitzread` ✅
 
 ### Privacy Policy Hosting
 Privacy policy needs to be publicly accessible via HTTPS URL before App Store submission. Options:

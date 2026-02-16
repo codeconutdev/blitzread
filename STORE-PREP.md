@@ -1,4 +1,4 @@
-# BlitzRead - App Store Readiness Checklist
+# ZapRead - App Store Readiness Checklist
 
 ## Bundle & Identity
 - [x] Bundle ID updated to `com.borgo.blitzread`
@@ -19,7 +19,7 @@
   - [ ] 6.5" (1284x2778 - iPhone 14 Plus, 13 Pro Max, 12 Pro Max)
   - [ ] 5.5" (1242x2208 - iPhone 8 Plus, 7 Plus, 6s Plus)
 - [x] App Store listing copy written (`store-listing.md`)
-- [x] App name: **BlitzRead**
+- [x] App name: **ZapRead**
 - [x] Subtitle: "Speed Read Anything"
 - [ ] App preview video (optional but recommended)
 
@@ -56,7 +56,7 @@
 ## Notes
 
 ### Privacy Manifest (iOS 17+)
-BlitzRead doesn't use any required reason APIs, but Apple may require a privacy manifest. Create `ios/Runner/PrivacyInfo.xcprivacy` if submission fails:
+ZapRead doesn't use any required reason APIs, but Apple may require a privacy manifest. Create `ios/Runner/PrivacyInfo.xcprivacy` if submission fails:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

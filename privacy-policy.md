@@ -1,17 +1,17 @@
-# Privacy Policy for BlitzRead
+# Privacy Policy for ZapRead
 
 **Effective Date:** February 15, 2025  
 **Last Updated:** February 15, 2025
 
 ## Overview
 
-BlitzRead is a speed reading application developed by Borgo Technologies LLC ("we", "us", or "our"). We are committed to protecting your privacy. This Privacy Policy explains our data practices for the BlitzRead mobile application.
+ZapRead is a speed reading application developed by Borgo Technologies LLC ("we", "us", or "our"). We are committed to protecting your privacy. This Privacy Policy explains our data practices for the ZapRead mobile application.
 
 ## Information We Collect
 
 **We collect NO personal information.**
 
-BlitzRead is designed with privacy at its core:
+ZapRead is designed with privacy at its core:
 - **No user accounts** - You don't need to sign up or log in
 - **No analytics** - We don't track how you use the app
 - **No data collection** - We don't collect, store, or transmit any personal data
@@ -38,7 +38,7 @@ We do NOT:
 
 ## Children's Privacy
 
-BlitzRead does not collect any information from anyone, including children under 13. The app is rated 4+ and is safe for all ages.
+ZapRead does not collect any information from anyone, including children under 13. The app is rated 4+ and is safe for all ages.
 
 ## Data Storage
 
@@ -49,11 +49,11 @@ Any preferences you set (such as reading speed) are stored locally on your devic
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. Any changes will be posted within the app and on this page. Continued use of BlitzRead after changes constitutes acceptance of the updated policy.
+We may update this Privacy Policy from time to time. Any changes will be posted within the app and on this page. Continued use of ZapRead after changes constitutes acceptance of the updated policy.
 
 ## Contact Us
 
-If you have questions about this Privacy Policy or BlitzRead, please contact:
+If you have questions about this Privacy Policy or ZapRead, please contact:
 
 **Borgo Technologies LLC**  
 Email: [Your email - replace this]  
@@ -79,9 +79,9 @@ This Privacy Policy complies with:
 
 ---
 
-**Summary:** BlitzRead collects zero data. Everything happens on your device. Your privacy is absolute.
+**Summary:** ZapRead collects zero data. Everything happens on your device. Your privacy is absolute.
 
 **Company:** Borgo Technologies LLC  
 **State:** New Jersey, USA  
-**App:** BlitzRead - Speed Reading App  
+**App:** ZapRead - Speed Reading App  
 **Bundle ID:** com.borgo.blitzread

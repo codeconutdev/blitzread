@@ -1,7 +1,7 @@
-# BlitzRead - App Store Listing
+# ZapRead - App Store Listing
 
 ## App Name
-**BlitzRead**
+**ZapRead**
 
 ## Subtitle (30 characters max)
 **Speed Read Anything**
@@ -15,11 +15,11 @@ _(148 characters)_
 
 **Read Faster. Retain More. Train Your Brain.**
 
-BlitzRead uses RSVP (Rapid Serial Visual Presentation) technology to help you read 2-3x faster than normal. Whether you're catching up on articles, reading books, or processing emails, BlitzRead makes it effortless.
+ZapRead uses RSVP (Rapid Serial Visual Presentation) technology to help you read 2-3x faster than normal. Whether you're catching up on articles, reading books, or processing emails, ZapRead makes it effortless.
 
 **HOW IT WORKS**
 
-Traditional reading requires your eyes to move across lines of text, which slows you down. BlitzRead eliminates this by displaying one word at a time in the same spot. Your eyes stay fixed, and your brain processes words faster.
+Traditional reading requires your eyes to move across lines of text, which slows you down. ZapRead eliminates this by displaying one word at a time in the same spot. Your eyes stay fixed, and your brain processes words faster.
 
 Each word flashes with its Optimal Recognition Point (ORP) highlighted in red—the letter your eye naturally focuses on. This smart timing helps your brain recognize words instantly.
 
@@ -85,11 +85,11 @@ The ORP (Optimal Recognition Point) is typically the letter slightly left of cen
 
 **NO SUBSCRIPTIONS. NO ADS. NO TRACKING.**
 
-BlitzRead is a one-time purchase. No monthly fees, no ads, no data collection. Just pure speed reading power in your pocket.
+ZapRead is a one-time purchase. No monthly fees, no ads, no data collection. Just pure speed reading power in your pocket.
 
 ---
 
-**Download BlitzRead today and unlock your brain's reading potential.**
+**Download ZapRead today and unlock your brain's reading potential.**
 
 Read faster. Learn more. Live better.
 
@@ -126,7 +126,7 @@ https://github.com/codeconutdev/blitzread
 
 ## What's New (for version 1.0.0)
 
-**Initial Release - Welcome to BlitzRead!**
+**Initial Release - Welcome to ZapRead!**
 
 🎉 Read 2-3x faster with RSVP speed reading technology
 
@@ -148,7 +148,7 @@ Start reading faster today!
 
 **Notes for Reviewer:**
 
-BlitzRead is a speed reading app using RSVP (Rapid Serial Visual Presentation) technology.
+ZapRead is a speed reading app using RSVP (Rapid Serial Visual Presentation) technology.
 
 **How to test:**
 1. Launch the app
